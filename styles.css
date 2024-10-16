@@ -1,0 +1,218 @@
+body {
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  #title {
+    background-color: #54aff9;
+    color: #fff
+  }
+
+  .title-img {
+    padding-bottom: 70px;
+  }
+  
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    color: #555;
+}
+
+#Formfill {
+    padding-bottom: 60px;
+}
+
+/* Input Fields Styling */
+form input[type="text"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Radio and Checkbox Styling */
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Submit Button Styling */
+form input[type="submit"] {
+    background-color: #ff9d4c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+}
+
+/* Hover Effect on Submit Button */
+form input[type="submit"]:hover {
+    background-color: #54aff9;
+}
+
+/* Form Fieldset Spacing */
+form input[type="radio"] + label,
+form input[type="checkbox"] + label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+  
+  /* Navbar */
+  .navbar {
+    padding-bottom: 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.2rem;
+  }
+
+ 
+  
+  /* two button */
+  .two-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* title-img */
+  .title-img {
+    width: 80%
+  }
+  
+  /* features */
+  #features {
+    padding: 7% 15%;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .icon {
+    color: #54aff9;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff9d4c;
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    text-align: center;
+    background-color: #54aff9;
+    color: #fff;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  .testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  #press {
+    background-color: #8172ef;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  /* Solutions */
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .pricing-table {
+    padding: 3% 2%;
+  }
+  
+  .pricing-head {
+    font-size: 2.7rem;
+  }
+  
+  .img-pri {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* cta */
+  #cta {
+    background-color: #54aff9;
+    text-align: center;
+  }
+  
+  .cta-text {
+    color: #fff;
+    font-size: 3rem;
+    line-height: 2;
+    padding: 7% 15% 0 15%;
+  }
+  
+  #footer {
+    text-align: center;
+    padding: 5%;
+  }
+
+  
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+  }
